@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@ultraviolet/ui": {
+      "signature": "065bae014b6516283225d6b53f6b02a5",
+      "file": true,
+      "replaced": "2.8.0"
+    }
+  }
+}

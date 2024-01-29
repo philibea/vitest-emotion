@@ -1,0 +1,45 @@
+{
+  "name": "vitest-and-emotion-styled",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --config vite.config.mts",
+    "typecheck": "tsc --noEmit",
+    "serve": "vite preview",
+    "test": "vitest run ",
+    "test:silent": "vitest run  --silent --run",
+    "test-watch": "vitest"
+  },
+  "dependencies": {
+    "@emotion/cache": "11.11.0",
+    "@emotion/jest": "11.11.0",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@scaleway/tsconfig": "1.1.1",
+    "@ultraviolet/icons": "2.8.0",
+    "@ultraviolet/themes": "1.7.0",
+    "@ultraviolet/ui": "file:.yalc/@ultraviolet/ui",
+    "prettier": "3.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.4"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "11.10.8",
+    "@testing-library/jest-dom": "6.3.0",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "29.2.4",
+    "@types/node": "18.11.11",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@vitejs/plugin-react": "4.2.1",
+    "jsdom": "24.0.0",
+    "typescript": "5.3.3",
+    "vite": "5.0.12",
+    "vitest": "1.2.2"
+  },
+  "keywords": [],
+  "description": ""
+}

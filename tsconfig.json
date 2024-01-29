@@ -1,0 +1,15 @@
+{
+  "extends": "@scaleway/tsconfig",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": [
+      "vite/client",
+      "vitest",
+      "jest",
+      "@testing-library/jest-dom",
+      "@emotion/react",
+    ],
+  },
+  "include": ["./src", "emotion.d.ts"],
+}
